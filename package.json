@@ -4,13 +4,14 @@
   "description": "node server that get input from physical sensor and sends req to Monday.com",
   "main": "app.js",
   "scripts": {
-    "start":"node app.js",
+    "start": "node app.js",
     "start:dev": "nodemon app.js"
   },
   "author": "Tom Portugez",
   "license": "CC-BY-NC-4.0",
   "dependencies": {
     "express": "^4.18.1",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "onoff": "^6.0.3"
   }
 }
