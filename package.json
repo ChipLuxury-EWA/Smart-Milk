@@ -11,7 +11,9 @@
   "author": "Tom Portugez",
   "license": "CC-BY-NC-4.0",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "node-fetch": "^3.2.5",
     "nodemon": "^2.0.16",
     "onoff": "^6.0.3",
     "pi-hx711": "^1.2.0",
